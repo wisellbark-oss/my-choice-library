@@ -1,0 +1,15 @@
+{
+  "name": "我的选择库",
+  "short_name": "选择库",
+  "description": "把已经验证过的好选择留在这里。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#131211",
+  "theme_color": "#131211",
+  "lang": "zh-CN",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
