@@ -1,5 +1,5 @@
-const CACHE='my-choice-library-ui-v2';
-const ASSETS=['./','./index.html','./app.webmanifest','./icon.svg'];
+const CACHE='my-choice-library-icon-v3';
+const ASSETS=['./','./index.html','./app.webmanifest','./icon.svg','./icons/choice-192-v3.png','./icons/choice-512-v3.png','./icons/apple-touch-180-v3.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });
